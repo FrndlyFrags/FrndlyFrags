@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/frndlyfrags">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=2ea043&fontSize=54&height=90&width=794&text=Hello!%20I'm%20FrndlyFrags" alt="Hello! I&#39;m FrndlyFrags" />
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=2ea046&fontSize=54&height=90&width=794&text=Hello!%20I'm%20FrndlyFrags" alt="Hello! I&#39;m FrndlyFrags" />
   </a>
 </p>
 
