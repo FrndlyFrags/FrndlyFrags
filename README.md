@@ -2,7 +2,7 @@
 
 # Hi there, I'm FrndlyFrags 👋
 
-<img width="500" height="300" src="./frags-banner.svg" alt="FrndlyFrags ID Lanyard Badge" width="400" />
+<img width="700" height="500" src="./frags-banner.svg" alt="FrndlyFrags ID Lanyard Badge" width="400" />
 
 ### 🚀 Frontend Developer | Gamer | Builder
 
