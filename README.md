@@ -1,10 +1,9 @@
 <div align="center">
 
-# Hi there, I'm FrndlyFrags 👋
 
-<img width="700" height="500" src="./frags-banner.svg" alt="FrndlyFrags ID Lanyard Badge" width="400" />
+<img width="900" height="500" src="./frags-banner.svg" alt="FrndlyFrags ID Lanyard Badge" width="400" />
 
-### 🚀 Frontend Developer | Gamer | Builder
+
 
 </div>
 
