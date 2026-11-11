@@ -9,8 +9,9 @@
 - **Databases:** SQL, SAP
 - **Tools:** Git, GitHub, VS Code, Webpack, Node.js
 
-### 🎮 Fun Fact
-I'm a passionate gamer and developer who loves building creative projects and solving complex problems with code.
+### 🏷️ ID Card Lanyard
+
+<img src="./frags-lanyard-vector.svg" alt="FrndlyFrags ID Card" width="600" />
 
 ---
 
@@ -20,9 +21,7 @@ I'm a passionate gamer and developer who loves building creative projects and so
 
 ---
 
-### 🏷️ ID Card Lanyard
 
-<img src="./frags-lanyard-vector.svg" alt="FrndlyFrags ID Card" width="600" />
 
 ---
 
