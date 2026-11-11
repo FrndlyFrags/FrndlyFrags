@@ -2,27 +2,38 @@
 
 # Hi there, I'm FrndlyFrags 👋
 
-<img src="./frags-banner.svg" alt="FrndlyFrags ID Lanyard Badge" width="400" />
-
 ### 🚀 Frontend Developer | Gamer | Builder
 
-</div>
+### 🌟 My Tech Stack
+- **Frontend:** React, JavaScript, TypeScript, HTML5, CSS3
+- **Databases:** SQL, SAP
+- **Tools:** Git, GitHub, VS Code, Webpack, Node.js
 
----
-
-### 🛠️ Tech Stack & Skills
-- **Frontend Development:** HTML5, CSS3, JavaScript (ES6+), React
-- **Databases & Systems:** SQL, SAP
-- **Tools & Workflow:** Git, GitHub, VS Code
-
----
-
-<div align="center">
+### 🎮 Fun Fact
+I'm a passionate gamer and developer who loves building creative projects and solving complex problems with code.
 
 ### 📊 3D Contribution Graph
-![](./profile-3d-contrib/profile-gitblock.svg)
+
+<img src="./profile-3d-contrib/profile-gitblock.svg" alt="3D Contribution Graph" width="400" />
 
 <sub>⚡ Automatically updated daily at 2:00 AM CST</sub>
 
+---
+
+### 🏷️ ID Card Lanyard
+
+<img src="./frags-lanyard-vector.svg" alt="FrndlyFrags ID Card" width="600" />
+
+---
+
+### 💻 Terminal Banner
+
+<img src="./frags-banner.svg" alt="FrndlyFrags Developer Banner" width="100%" />
+
+---
+
+### 🔗 Connect With Me
+
+<img src="./connect-me.svg" alt="Connect Links" width="100%" />
+
 </div>
-# Trying
