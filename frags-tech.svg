@@ -1,35 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 500" width="1280" height="500" role="img" aria-label="Tech stack – FrndlyFrags" xmlns:c2pa="http://c2pa.org/manifest">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 500" width="1280" height="500" role="img" aria-label="Tech stack – FrndlyFrags">
 <style>
 text{font-family:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace}
-.h1{font-weight:700;font-size:28px;fill:#f2f3f8;font-family:'Space Grotesk',system-ui,sans-serif}
-.eyebrow{fill:#ff7b00;font-size:12px;font-weight:700;letter-spacing:2px}
-.count{fill:#7d8399;font-size:11px;letter-spacing:1.5px}
-.desc{fill:#9aa0b5;font-size:12px}
-.t{animation:in .35s both}
-.t:hover{transform:translateY(-4px)}
-.t text{fill:#e8eaf2;font-size:13px;font-weight:600}
-@keyframes in{from{opacity:0}}
-@keyframes headphoneFloat{0%,100%{transform:translateY(0) rotate(-3deg);opacity:.4}50%{transform:translateY(-15px) rotate(3deg);opacity:.8}}
+.h1{font-weight:700;font-size:26px;fill:#f2f3f8;font-family:'Space Grotesk',system-ui,sans-serif}
+.eyebrow{fill:#ff7b00;font-size:11px;font-weight:700;letter-spacing:2.5px}
+.count{fill:#7d8399;font-size:10px;letter-spacing:1.5px}
+.desc{fill:#9aa0b5;font-size:11px}
+.t{transition:transform .2s}
+.t:hover{transform:translateY(-3px)}
+.t text{fill:#e8eaf2;font-size:12px;font-weight:600}
+@keyframes headphoneFloat{0%,100%{transform:translateY(0) rotate(-3deg);opacity:.35}50%{transform:translateY(-12px) rotate(3deg);opacity:.7}}
 .hp{transform-box:fill-box;transform-origin:center;animation:headphoneFloat 6s ease-in-out infinite}
 </style>
 <defs>
 <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" opacity=".05"/></pattern>
-<radialGradient id="fade"><stop offset="55%" stop-color="#fff"/><stop offset="100%" stop-color="#000"/></radialGradient>
-<linearGradient id="strapg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0a0a0a"/><stop offset="50%" stop-color="#1a1a1a"/><stop offset="100%" stop-color="#0a0a0a"/></linearGradient>
-<linearGradient id="cardg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0a0a0a"/><stop offset="100%" stop-color="#0a0a0a"/></linearGradient>
 <linearGradient id="cardborder" x1="0" y1="0" x2="1" y2="1"><stop offset="0%"><animate attributeName="stop-color" values="#ff3700;#ff7b00;#d92b00;#ff3700" dur="6s" repeatCount="indefinite"/></stop><stop offset="100%"><animate attributeName="stop-color" values="#d92b00;#ff3700;#ff7b00;#d92b00" dur="6s" repeatCount="indefinite"/></stop></linearGradient>
-<linearGradient id="lglow"><stop offset="0%" stop-color="#ff7b00" stop-opacity=".16"/><stop offset="100%" stop-color="#ff7b00" stop-opacity="0"/></linearGradient>
-<linearGradient id="nameg2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%"><animate attributeName="stop-color" values="#ff3700;#ff7b00;#ff3700" dur="5s" repeatCount="indefinite"/></stop><stop offset="100%"><animate attributeName="stop-color" values="#ff7b00;#ff3700;#ff7b00" dur="5s" repeatCount="indefinite"/></stop></linearGradient>
-<linearGradient id="shineg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#fff" stop-opacity=".07"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></linearGradient>
 <filter id="glow2"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity=".55"/></filter>
 <clipPath id="card"><rect width="1280" height="500" rx="24"/></clipPath>
 </defs>
 <g clip-path="url(#card)">
-<rect width="1280" height="500" fill="#12141f"/><rect width="1280" height="500" fill="url(#dots)"/>
+<rect width="1280" height="500" fill="#12141f"/>
+<rect width="1280" height="500" fill="url(#dots)"/>
 
 <!-- Headphone particles -->
-<g class="hp" style="animation-delay:.3s" transform="translate(80,150)" filter="url(#glow2)">
+<g class="hp" style="animation-delay:.3s" transform="translate(70,140)" filter="url(#glow2)">
   <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff3700" stroke-width="3" stroke-linecap="round"/>
   <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff7b00" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
   <rect x="2" y="15" width="7" height="12" rx="3" fill="#ff2200"/>
@@ -39,7 +32,7 @@ text{font-family:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace}
   <rect x="33" y="17" width="3" height="8" rx="1.5" fill="#ffaa00"/>
   <circle cx="34.5" cy="21" r="2" fill="#ff00ff" opacity="0.8"/>
 </g>
-<g class="hp" style="animation-delay:1.2s" transform="translate(350,400)" filter="url(#glow2)">
+<g class="hp" style="animation-delay:2.1s" transform="translate(330,420)" filter="url(#glow2)">
   <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff3700" stroke-width="3" stroke-linecap="round"/>
   <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff7b00" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
   <rect x="2" y="15" width="7" height="12" rx="3" fill="#ff2200"/>
@@ -49,7 +42,7 @@ text{font-family:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace}
   <rect x="33" y="17" width="3" height="8" rx="1.5" fill="#ffaa00"/>
   <circle cx="34.5" cy="21" r="2" fill="#ff00ff" opacity="0.8"/>
 </g>
-<g class="hp" style="animation-delay:2.5s" transform="translate(150,550)" filter="url(#glow2)">
+<g class="hp" style="animation-delay:3.5s" transform="translate(150,540)" filter="url(#glow2)">
   <path d="M 4 14 A 12 12 0 0 1 26 14" fill="none" stroke="#d92b00" stroke-width="2.5" stroke-linecap="round"/>
   <path d="M 4 14 A 12 12 0 0 1 26 14" fill="none" stroke="#ff7b00" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
   <rect x="1" y="12" width="5" height="9" rx="2.5" fill="#d92b00"/>
@@ -59,7 +52,7 @@ text{font-family:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace}
   <rect x="25" y="14" width="2" height="6" rx="1" fill="#ffaa00"/>
   <circle cx="26" cy="18" r="1.5" fill="#ff00ff" opacity="0.7"/>
 </g>
-<g class="hp" style="animation-delay:3.8s" transform="translate(380,250)" filter="url(#glow2)">
+<g class="hp" style="animation-delay:4.8s" transform="translate(380,240)" filter="url(#glow2)">
   <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff3700" stroke-width="3" stroke-linecap="round" opacity=".7"/>
   <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff7b00" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
   <rect x="2" y="15" width="7" height="12" rx="3" fill="#ff2200" opacity=".7"/>
@@ -69,7 +62,7 @@ text{font-family:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace}
   <rect x="33" y="17" width="3" height="8" rx="1.5" fill="#ffaa00" opacity=".7"/>
   <circle cx="34.5" cy="21" r="2" fill="#ff00ff" opacity="0.6"/>
 </g>
-<g class="hp" style="animation-delay:.8s" transform="translate(60,100)" filter="url(#glow2)">
+<g class="hp" style="animation-delay:.8s" transform="translate(50,90)" filter="url(#glow2)">
   <path d="M 8 22 A 20 20 0 0 1 44 22" fill="none" stroke="#ff3700" stroke-width="3.5" stroke-linecap="round" opacity=".5"/>
   <path d="M 8 22 A 20 20 0 0 1 44 22" fill="none" stroke="#ff7b00" stroke-width="2" stroke-linecap="round" opacity="0.35"/>
   <rect x="3" y="18" width="9" height="14" rx="4" fill="#ff2200" opacity=".5"/>
@@ -79,17 +72,7 @@ text{font-family:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace}
   <rect x="41" y="20" width="4" height="10" rx="2" fill="#ffaa00" opacity=".5"/>
   <circle cx="43" cy="26" r="2.5" fill="#ff00ff" opacity="0.5"/>
 </g>
-<g class="hp" style="animation-delay:2.1s" transform="translate(300,150)" filter="url(#glow2)">
-  <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff7b00" stroke-width="3" stroke-linecap="round" opacity=".5"/>
-  <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff3700" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
-  <rect x="2" y="15" width="7" height="12" rx="3" fill="#ff2200" opacity=".5"/>
-  <rect x="4" y="17" width="3" height="8" rx="1.5" fill="#ffaa00" opacity=".5"/>
-  <circle cx="5.5" cy="21" r="2" fill="#00ffff" opacity="0.4"/>
-  <rect x="31" y="15" width="7" height="12" rx="3" fill="#ff2200" opacity=".5"/>
-  <rect x="33" y="17" width="3" height="8" rx="1.5" fill="#ffaa00" opacity=".5"/>
-  <circle cx="34.5" cy="21" r="2" fill="#ff00ff" opacity="0.4"/>
-</g>
-<g class="hp" style="animation-delay:3.5s" transform="translate(80,400)" filter="url(#glow2)">
+<g class="hp" style="animation-delay:2.5s" transform="translate(100,380)" filter="url(#glow2)">
   <path d="M 5 16 A 14 14 0 0 1 31 16" fill="none" stroke="#d92b00" stroke-width="2.5" stroke-linecap="round" opacity=".4"/>
   <path d="M 5 16 A 14 14 0 0 1 31 16" fill="none" stroke="#ff7b00" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
   <rect x="1" y="14" width="6" height="10" rx="3" fill="#d92b00" opacity=".4"/>
@@ -99,17 +82,7 @@ text{font-family:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace}
   <rect x="29" y="16" width="3" height="7" rx="1.5" fill="#ffaa00" opacity=".4"/>
   <circle cx="30.5" cy="20" r="1.5" fill="#ff00ff" opacity="0.3"/>
 </g>
-<g class="hp" style="animation-delay:4.8s" transform="translate(350,500)" filter="url(#glow2)">
-  <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff3700" stroke-width="3" stroke-linecap="round" opacity=".4"/>
-  <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff7b00" stroke-width="1.5" stroke-linecap="round" opacity="0.28"/>
-  <rect x="2" y="15" width="7" height="12" rx="3" fill="#ff2200" opacity=".4"/>
-  <rect x="4" y="17" width="3" height="8" rx="1.5" fill="#ffaa00" opacity=".4"/>
-  <circle cx="5.5" cy="21" r="2" fill="#00ffff" opacity="0.3"/>
-  <rect x="31" y="15" width="7" height="12" rx="3" fill="#ff2200" opacity=".4"/>
-  <rect x="33" y="17" width="3" height="8" rx="1.5" fill="#ffaa00" opacity=".4"/>
-  <circle cx="34.5" cy="21" r="2" fill="#ff00ff" opacity="0.3"/>
-</g>
-<g class="hp" style="animation-delay:5.2s" transform="translate(200,200)" filter="url(#glow2)">
+<g class="hp" style="animation-delay:5.2s" transform="translate(220,190)" filter="url(#glow2)">
   <path d="M 5 16 A 14 14 0 0 1 31 16" fill="none" stroke="#ff7b00" stroke-width="2.5" stroke-linecap="round" opacity=".3"/>
   <path d="M 5 16 A 14 14 0 0 1 31 16" fill="none" stroke="#d92b00" stroke-width="1" stroke-linecap="round" opacity="0.2"/>
   <rect x="1" y="14" width="6" height="10" rx="3" fill="#ff7b00" opacity=".3"/>
@@ -119,7 +92,7 @@ text{font-family:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace}
   <rect x="29" y="16" width="3" height="7" rx="1.5" fill="#ffaa00" opacity=".3"/>
   <circle cx="30.5" cy="20" r="1.5" fill="#ff00ff" opacity="0.2"/>
 </g>
-<g class="hp" style="animation-delay:6.5s" transform="translate(360,350)" filter="url(#glow2)">
+<g class="hp" style="animation-delay:6.5s" transform="translate(370,350)" filter="url(#glow2)">
   <path d="M 4 14 A 12 12 0 0 1 26 14" fill="none" stroke="#d92b00" stroke-width="2" stroke-linecap="round" opacity=".3"/>
   <path d="M 4 14 A 12 12 0 0 1 26 14" fill="none" stroke="#ff7b00" stroke-width="1" stroke-linecap="round" opacity="0.2"/>
   <rect x="1" y="12" width="5" height="9" rx="2.5" fill="#d92b00" opacity=".3"/>
@@ -130,45 +103,51 @@ text{font-family:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace}
   <circle cx="26" cy="18" r="1.5" fill="#ff00ff" opacity="0.2"/>
 </g>
 
-<text class="eyebrow" x="462" y="56">// TECH STACK</text>
-<text class="h1" x="462" y="98">Tools I build with</text>
+<text class="eyebrow" x="462" y="54">// TECH STACK</text>
+<text class="h1" x="462" y="92">Tools I build with</text>
 
-<!-- PANEL 0: Languages (always visible) -->
-<g class="panel" id="p0" style="display:inline">
-<text class="count" x="1240" y="56" text-anchor="end">7 OF 43 SKILLS IN THE STACK</text>
-<text class="desc" x="462" y="124">Full-stack and plugin development.</text>
-<g class="t" style="animation-delay:0ms" transform="translate(462,204)"><rect width="151" height="56" rx="14" fill="rgba(255,55,0,0.14)" stroke="rgba(255,55,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">Java</text></g>
-<g class="t" style="animation-delay:40ms" transform="translate(623,204)"><rect width="151" height="56" rx="14" fill="rgba(255,123,0,0.14)" stroke="rgba(255,123,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">JavaScript</text></g>
-<g class="t" style="animation-delay:80ms" transform="translate(784,204)"><rect width="151" height="56" rx="14" fill="rgba(217,43,0,0.14)" stroke="rgba(217,43,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">TypeScript</text></g>
-<g class="t" style="animation-delay:120ms" transform="translate(945,204)"><rect width="151" height="56" rx="14" fill="rgba(255,85,0,0.14)" stroke="rgba(255,85,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">Python</text></g>
-<g class="t" style="animation-delay:160ms" transform="translate(1106,204)"><rect width="151" height="56" rx="14" fill="rgba(255,131,0,0.14)" stroke="rgba(255,131,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">SQL</text></g>
-<g class="t" style="animation-delay:200ms" transform="translate(462,296)"><rect width="151" height="56" rx="14" fill="rgba(255,100,0,0.14)" stroke="rgba(255,100,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">HTML5</text></g>
-<g class="t" style="animation-delay:240ms" transform="translate(623,296)"><rect width="151" height="56" rx="14" fill="rgba(255,60,0,0.14)" stroke="rgba(255,60,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">CSS3</text></g>
+<!-- Section labels -->
+<text fill="#ff7b00" font-size="11" font-weight="bold" letter-spacing="2" x="462" y="126">LANGUAGES</text>
+
+<!-- Row 1: Languages + Frontend side by side -->
+<g transform="translate(462,138)">
+  <!-- Languages (left side, spans wider) -->
+  <g transform="translate(0,0)">
+    <g class="t" style="animation-delay:0ms"><rect width="130" height="44" rx="10" fill="rgba(255,55,0,0.12)" stroke="rgba(255,55,0,0.5)"/><text x="65" y="27" text-anchor="middle">Java</text></g>
+    <g class="t" style="animation-delay:40ms" transform="translate(136,0)"><rect width="130" height="44" rx="10" fill="rgba(255,123,0,0.12)" stroke="rgba(255,123,0,0.5)"/><text x="65" y="27" text-anchor="middle">JavaScript</text></g>
+    <g class="t" style="animation-delay:80ms" transform="translate(272,0)"><rect width="130" height="44" rx="10" fill="rgba(217,43,0,0.12)" stroke="rgba(217,43,0,0.5)"/><text x="65" y="27" text-anchor="middle">TypeScript</text></g>
+    <g class="t" style="animation-delay:120ms" transform="translate(408,0)"><rect width="130" height="44" rx="10" fill="rgba(255,85,0,0.12)" stroke="rgba(255,85,0,0.5)"/><text x="65" y="27" text-anchor="middle">Python</text></g>
+    <g class="t" style="animation-delay:160ms" transform="translate(544,0)"><rect width="130" height="44" rx="10" fill="rgba(255,131,0,0.12)" stroke="rgba(255,131,0,0.5)"/><text x="65" y="27" text-anchor="middle">SQL</text></g>
+    <g class="t" style="animation-delay:200ms" transform="translate(680,0)"><rect width="130" height="44" rx="10" fill="rgba(255,100,0,0.12)" stroke="rgba(255,100,0,0.5)"/><text x="65" y="27" text-anchor="middle">HTML5</text></g>
+    <g class="t" style="animation-delay:240ms" transform="translate(816,0)"><rect width="130" height="44" rx="10" fill="rgba(255,60,0,0.12)" stroke="rgba(255,60,0,0.5)"/><text x="65" y="27" text-anchor="middle">CSS3</text></g>
+  </g>
 </g>
 
-<!-- PANEL 1: Frontend (always visible) -->
-<g class="panel" id="p1" style="display:inline; opacity:0.6" transform="translate(0,110)">
-<text class="count" x="1240" y="56" text-anchor="end">6 OF 43 SKILLS IN THE STACK</text>
-<text class="desc" x="462" y="124">React and Next.js interfaces with TypeScript and modern CSS.</text>
-<g class="t" style="animation-delay:0ms" transform="translate(462,204)"><rect width="151" height="56" rx="14" fill="rgba(255,55,0,0.14)" stroke="rgba(255,55,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">React.js</text></g>
-<g class="t" style="animation-delay:40ms" transform="translate(623,204)"><rect width="151" height="56" rx="14" fill="rgba(255,123,0,0.14)" stroke="rgba(255,123,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">Next.js</text></g>
-<g class="t" style="animation-delay:80ms" transform="translate(784,204)"><rect width="151" height="56" rx="14" fill="rgba(217,43,0,0.14)" stroke="rgba(217,43,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">Redux</text></g>
-<g class="t" style="animation-delay:120ms" transform="translate(945,204)"><rect width="151" height="56" rx="14" fill="rgba(255,85,0,0.14)" stroke="rgba(255,85,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">Tailwind CSS</text></g>
-<g class="t" style="animation-delay:160ms" transform="translate(1106,204)"><rect width="151" height="56" rx="14" fill="rgba(255,131,0,0.14)" stroke="rgba(255,131,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">Vite</text></g>
-<g class="t" style="animation-delay:200ms" transform="translate(462,296)"><rect width="151" height="56" rx="14" fill="rgba(255,100,0,0.14)" stroke="rgba(255,100,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">Responsive Design</text></g>
+<!-- Section label -->
+<text fill="#ff7b00" font-size="11" font-weight="bold" letter-spacing="2" x="462" y="230">FRONTEND</text>
+
+<!-- Frontend row -->
+<g transform="translate(462,242)">
+  <g class="t" style="animation-delay:0ms"><rect width="130" height="44" rx="10" fill="rgba(255,55,0,0.12)" stroke="rgba(255,55,0,0.5)"/><text x="65" y="27" text-anchor="middle">React.js</text></g>
+  <g class="t" style="animation-delay:40ms" transform="translate(136,0)"><rect width="130" height="44" rx="10" fill="rgba(255,123,0,0.12)" stroke="rgba(255,123,0,0.5)"/><text x="65" y="27" text-anchor="middle">Next.js</text></g>
+  <g class="t" style="animation-delay:80ms" transform="translate(272,0)"><rect width="130" height="44" rx="10" fill="rgba(217,43,0,0.12)" stroke="rgba(217,43,0,0.5)"/><text x="65" y="27" text-anchor="middle">Redux</text></g>
+  <g class="t" style="animation-delay:120ms" transform="translate(408,0)"><rect width="130" height="44" rx="10" fill="rgba(255,85,0,0.12)" stroke="rgba(255,85,0,0.5)"/><text x="65" y="27" text-anchor="middle">Tailwind CSS</text></g>
+  <g class="t" style="animation-delay:160ms" transform="translate(544,0)"><rect width="130" height="44" rx="10" fill="rgba(255,131,0,0.12)" stroke="rgba(255,131,0,0.5)"/><text x="65" y="27" text-anchor="middle">Vite</text></g>
+  <g class="t" style="animation-delay:200ms" transform="translate(680,0)"><rect width="130" height="44" rx="10" fill="rgba(255,100,0,0.12)" stroke="rgba(255,100,0,0.5)"/><text x="65" y="27" text-anchor="middle">Responsive Design</text></g>
 </g>
 
-<!-- PANEL 2: Backend & APIs (always visible) -->
-<g class="panel" id="p2" style="display:inline; opacity:0.4" transform="translate(0,220)">
-<text class="count" x="1240" y="56" text-anchor="end">7 OF 43 SKILLS IN THE STACK</text>
-<text class="desc" x="462" y="124">Node.js and FastAPI services, REST APIs, background workers.</text>
-<g class="t" style="animation-delay:0ms" transform="translate(462,204)"><rect width="151" height="56" rx="14" fill="rgba(255,55,0,0.14)" stroke="rgba(255,55,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">Node.js</text></g>
-<g class="t" style="animation-delay:40ms" transform="translate(623,204)"><rect width="151" height="56" rx="14" fill="rgba(255,123,0,0.14)" stroke="rgba(255,123,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">Express.js</text></g>
-<g class="t" style="animation-delay:80ms" transform="translate(784,204)"><rect width="151" height="56" rx="14" fill="rgba(217,43,0,0.14)" stroke="rgba(217,43,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">FastAPI</text></g>
-<g class="t" style="animation-delay:120ms" transform="translate(945,204)"><rect width="151" height="56" rx="14" fill="rgba(255,85,0,0.14)" stroke="rgba(255,85,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">REST APIs</text></g>
-<g class="t" style="animation-delay:160ms" transform="translate(1106,204)"><rect width="151" height="56" rx="14" fill="rgba(255,131,0,0.14)" stroke="rgba(255,131,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">GraphQL</text></g>
-<g class="t" style="animation-delay:200ms" transform="translate(462,296)"><rect width="151" height="56" rx="14" fill="rgba(255,100,0,0.14)" stroke="rgba(255,100,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">WebSockets</text></g>
-<g class="t" style="animation-delay:240ms" transform="translate(623,296)"><rect width="151" height="56" rx="14" fill="rgba(255,60,0,0.14)" stroke="rgba(255,60,0,0.6)"/><text x="75.5" y="33" text-anchor="middle">JWT Auth</text></g>
+<!-- Section label -->
+<text fill="#ff7b00" font-size="11" font-weight="bold" letter-spacing="2" x="462" y="334">BACKEND &amp; APIs</text>
+
+<!-- Backend row -->
+<g transform="translate(462,346)">
+  <g class="t" style="animation-delay:0ms"><rect width="130" height="44" rx="10" fill="rgba(255,55,0,0.12)" stroke="rgba(255,55,0,0.5)"/><text x="65" y="27" text-anchor="middle">Node.js</text></g>
+  <g class="t" style="animation-delay:40ms" transform="translate(136,0)"><rect width="130" height="44" rx="10" fill="rgba(255,123,0,0.12)" stroke="rgba(255,123,0,0.5)"/><text x="65" y="27" text-anchor="middle">Express.js</text></g>
+  <g class="t" style="animation-delay:80ms" transform="translate(272,0)"><rect width="130" height="44" rx="10" fill="rgba(217,43,0,0.12)" stroke="rgba(217,43,0,0.5)"/><text x="65" y="27" text-anchor="middle">FastAPI</text></g>
+  <g class="t" style="animation-delay:120ms" transform="translate(408,0)"><rect width="130" height="44" rx="10" fill="rgba(255,85,0,0.12)" stroke="rgba(255,85,0,0.5)"/><text x="65" y="27" text-anchor="middle">REST APIs</text></g>
+  <g class="t" style="animation-delay:160ms" transform="translate(544,0)"><rect width="130" height="44" rx="10" fill="rgba(255,131,0,0.12)" stroke="rgba(255,131,0,0.5)"/><text x="65" y="27" text-anchor="middle">GraphQL</text></g>
+  <g class="t" style="animation-delay:200ms" transform="translate(680,0)"><rect width="130" height="44" rx="10" fill="rgba(255,100,0,0.12)" stroke="rgba(255,100,0,0.5)"/><text x="65" y="27" text-anchor="middle">WebSockets</text></g>
+  <g class="t" style="animation-delay:240ms" transform="translate(816,0)"><rect width="130" height="44" rx="10" fill="rgba(255,60,0,0.12)" stroke="rgba(255,60,0,0.5)"/><text x="65" y="27" text-anchor="middle">JWT Auth</text></g>
 </g>
 
 </g>
