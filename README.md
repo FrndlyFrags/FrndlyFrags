@@ -11,7 +11,7 @@
 
 ### 🏷️ ID Card Lanyard
 
-<img src="./frags-lanyard-vector.svg" alt="FrndlyFrags ID Card" width="600" />
+
 
 ---
 
