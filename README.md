@@ -11,7 +11,7 @@
 
 ### 🏷️ ID Card Lanyard
 
-<img src="./frags-id.svg" alt="FrndlyFrags Developer Banner" width="50%" />
+<img src="./frags-id.svg" alt="FrndlyFrags Developer Banner" />
 
 ---
 
