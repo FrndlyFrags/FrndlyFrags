@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 980" width="100%" role="img" aria-label="Tech stack – FrndlyFrags">
+<style>
+text{font-family:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace}
+.h1{font-weight:700;font-size:28px;fill:#f2f3f8;font-family:'Space Grotesk',system-ui,sans-serif}
+.eyebrow{fill:#f5a623;font-size:12px;font-weight:700;letter-spacing:2px}
+.count{fill:#7d8399;font-size:11px;letter-spacing:1.5px}
+.desc{fill:#9aa0b5;font-size:12px}
+.t text{fill:#e8eaf2;font-size:13px;font-weight:600}
+.tab-label{fill:#f5a623;font-size:12px;font-weight:700;letter-spacing:2px}
+</style>
+<defs>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" opacity=".05"/></pattern>
+<linearGradient id="beam" x1="383" y1="0" x2="1252" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f5c452" stop-opacity=".65"/><stop offset=".6" stop-color="#f5c452" stop-opacity=".16"/><stop offset="1" stop-color="#f5c452" stop-opacity="0"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#ffe9a8" stop-opacity=".95"/><stop offset="1" stop-color="#f5a623" stop-opacity="0"/></radialGradient>
+<clipPath id="card"><rect width="1280" height="980" rx="24"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+<rect width="1280" height="980" fill="#12141f"/><rect width="1280" height="980" fill="url(#dots)"/>
+<image href="data:image/jpeg;base64,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" x="20" y="50" width="395" height="410"/>
+<polygon points="383,237 1252,60 1252,450" fill="url(#beam)"/>
+<circle cx="380" cy="237" r="40" fill="url(#glow)"/>
+<circle cx="720" cy="160" r="1.6" fill="#f5c452"/><circle cx="820" cy="220" r="1.6" fill="#f5c452"/><circle cx="980" cy="330" r="1.6" fill="#f5c452"/>
+<text class="eyebrow" x="462" y="56">// TECH STACK</text>
+<text class="h1" x="462" y="98">Tools I build with</text>
+<text class="count" x="1240" y="56" text-anchor="end">43 SKILLS IN THE STACK</text>
+
+<!-- Languages -->
+<text class="desc" x="462" y="124">Full-stack and plugin development.</text>
+<g transform="translate(462,204)"><rect width="151" height="56" rx="14" fill="hsla(0,50%,45%,.14)" stroke="hsla(0,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">Java</text></g>
+<g transform="translate(623,204)"><rect width="151" height="56" rx="14" fill="hsla(47,50%,45%,.14)" stroke="hsla(47,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">JavaScript</text></g>
+<g transform="translate(784,204)"><rect width="151" height="56" rx="14" fill="hsla(94,50%,45%,.14)" stroke="hsla(94,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">TypeScript</text></g>
+<g transform="translate(945,204)"><rect width="151" height="56" rx="14" fill="hsla(141,50%,45%,.14)" stroke="hsla(141,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">Python</text></g>
+<g transform="translate(1106,204)"><rect width="151" height="56" rx="14" fill="hsla(188,50%,45%,.14)" stroke="hsla(188,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">SQL</text></g>
+<g transform="translate(462,296)"><rect width="151" height="56" rx="14" fill="hsla(235,50%,45%,.14)" stroke="hsla(235,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">HTML5</text></g>
+<g transform="translate(623,296)"><rect width="151" height="56" rx="14" fill="hsla(282,50%,45%,.14)" stroke="hsla(282,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">CSS3</text></g>
+
+<!-- Frontend -->
+<text class="tab-label" x="462" y="420">FRONTEND</text>
+<text class="desc" x="462" y="450">React and Next.js interfaces with TypeScript and modern CSS.</text>
+<g transform="translate(462,500)"><rect width="151" height="56" rx="14" fill="hsla(30,50%,45%,.14)" stroke="hsla(30,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">React.js</text></g>
+<g transform="translate(623,500)"><rect width="151" height="56" rx="14" fill="hsla(77,50%,45%,.14)" stroke="hsla(77,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">Next.js</text></g>
+<g transform="translate(784,500)"><rect width="151" height="56" rx="14" fill="hsla(124,50%,45%,.14)" stroke="hsla(124,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">Redux</text></g>
+<g transform="translate(945,500)"><rect width="151" height="56" rx="14" fill="hsla(171,50%,45%,.14)" stroke="hsla(171,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">Tailwind CSS</text></g>
+<g transform="translate(1106,500)"><rect width="151" height="56" rx="14" fill="hsla(218,50%,45%,.14)" stroke="hsla(218,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">Vite</text></g>
+<g transform="translate(462,592)"><rect width="151" height="56" rx="14" fill="hsla(265,50%,45%,.14)" stroke="hsla(265,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">Responsive Design</text></g>
+
+<!-- Backend & APIs -->
+<text class="tab-label" x="462" y="718">BACKEND & APIs</text>
+<text class="desc" x="462" y="748">Node.js and FastAPI services, REST APIs, background workers.</text>
+<g transform="translate(462,800)"><rect width="151" height="56" rx="14" fill="hsla(60,50%,45%,.14)" stroke="hsla(60,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">Node.js</text></g>
+<g transform="translate(623,800)"><rect width="151" height="56" rx="14" fill="hsla(107,50%,45%,.14)" stroke="hsla(107,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">Express.js</text></g>
+<g transform="translate(784,800)"><rect width="151" height="56" rx="14" fill="hsla(154,50%,45%,.14)" stroke="hsla(154,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">FastAPI</text></g>
+<g transform="translate(945,800)"><rect width="151" height="56" rx="14" fill="hsla(201,50%,45%,.14)" stroke="hsla(201,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">REST APIs</text></g>
+<g transform="translate(1106,800)"><rect width="151" height="56" rx="14" fill="hsla(248,50%,45%,.14)" stroke="hsla(248,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">GraphQL</text></g>
+<g transform="translate(462,892)"><rect width="151" height="56" rx="14" fill="hsla(295,50%,45%,.14)" stroke="hsla(295,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">WebSockets</text></g>
+<g transform="translate(623,892)"><rect width="151" height="56" rx="14" fill="hsla(342,50%,45%,.14)" stroke="hsla(342,70%,58%,.6)"/><text x="75.5" y="33" text-anchor="middle">JWT Auth</text></g>
+
+</g>
+<rect x=".5" y=".5" width="1279" height="979" rx="24" fill="none" stroke="#4a3418"/>
+</svg>
