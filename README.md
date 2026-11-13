@@ -5,13 +5,8 @@
 ### 🚀 Frontend Developer | Gamer | Builder
 
 ### 🌟 My Tech Stack
-- **Frontend:** React, JavaScript, TypeScript, HTML5, CSS3
-- **Databases:** SQL, SAP
-- **Tools:** Git, GitHub, VS Code, Webpack, Node.js
 
-### 🏷️ ID Card Lanyard
-
-<img src="./frags-id.svg" alt="FrndlyFrags Developer Banner" />
+<img src="./frags-tech.svg" alt="FrndlyFrags Skill Tree" width="100%" />
 
 ---
 
