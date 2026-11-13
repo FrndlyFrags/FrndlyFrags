@@ -10,6 +10,12 @@
 
 ---
 
+### 🏷️ ID Card Lanyard
+
+<img src="./frags-id.svg" alt="FrndlyFrags Developer Banner" width="320" />
+
+---
+
 ### 💻 Terminal Banner
 
 <img src="./frags-banner.svg" alt="FrndlyFrags Developer Banner" width="100%" />
