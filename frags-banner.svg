@@ -139,10 +139,10 @@ TOTAL WIDTH: 287.4
 <g class="pill" style="animation:fadeIn .3s ease 5.3s forwards"><rect x="120" y="422" width="64" height="26" rx="13" fill="rgba(139,92,246,.14)" stroke="#d92b00" stroke-width="1"/><text x="152" y="439" text-anchor="middle" font-size="12" fill="#ffc0a0" font-weight="bold">Plugins</text></g>
 <g class="pill" style="animation:fadeIn .3s ease 5.4s forwards"><rect x="192" y="422" width="130" height="26" rx="13" fill="rgba(255,126,182,.10)" stroke="#ff3700" stroke-width="1"/><text x="257" y="439" text-anchor="middle" font-size="12" fill="#ffa07a" font-weight="bVercelsold">Discord Bots</text></g>
 <g class="pill" style="animation:fadeIn .3s ease 4.9s forwards"><rect x="332" y="422" width="70" height="26" rx="13" fill="rgba(38,119,189,.15)" stroke="#38bdf8" stroke-width="1"/><text x="365" y="439" text-anchor="middle" font-size="12" fill="#7dd3fc" font-weight="bold">Devops</text></g>
-<text class="ii" x="48" y="490" font-size="15" fill="#ff3700" font-weight="bold" style="animation:fadeIn .4s ease 5.6s forwards">💗 About Me</text>
-<text class="ii" x="48" y="516" font-size="13.5" style="animation:fadeIn .4s ease 5.8s forwards"><tspan fill="#4ade80">&gt;_ </tspan><tspan fill="#cdd3dd">I build what needed to be build.</tspan></text>
-<text class="ii" x="48" y="540" font-size="13.5" style="animation:fadeIn .4s ease 6s forwards"><tspan fill="#fde047">💡 </tspan><tspan fill="#cdd3dd">Always learning, always playing, always building.</tspan></text>
-<text class="ii" x="48" y="564" font-size="13.5" style="animation:fadeIn .4s ease 6.2s forwards"><tspan fill="#ff3700">🚀 </tspan><tspan fill="#cdd3dd">Turning ideas into real world solutions.</tspan></text>
+<text class="ii" x="48" y="490" font-size="15" fill="#ff3700" font-weight="bold" style="animation:fadeIn .4s ease 5.6s forwards">💗 </text>
+<text class="ii" x="48" y="516" font-size="13.5" style="animation:fadeIn .4s ease 5.8s forwards"><tspan fill="#4ade80">&gt;_ </tspan><tspan fill="#cdd3dd">Not here to follow trends, here to build ideas.</tspan></text>
+<text class="ii" x="48" y="540" font-size="13.5" style="animation:fadeIn .4s ease 6s forwards"><tspan fill="#fde047">💡 </tspan><tspan fill="#cdd3dd"> Experimenting with code and creativity.</tspan></text>
+<text class="ii" x="48" y="564" font-size="13.5" style="animation:fadeIn .4s ease 6.2s forwards"><tspan fill="#ff3700">🚀 </tspan><tspan fill="#cdd3dd">Probably gaming when offline.</tspan></text>
 <g class="st" style="animation:fadeIn .5s ease 6.4s forwards">
 <rect x="48" y="586" width="560" height="66" rx="12" fill="#1f0a07" stroke="#4a150e" stroke-width="1"/>
 <line x1="188" y1="598" x2="188" y2="640" class="sep"/>
@@ -232,7 +232,7 @@ TOTAL WIDTH: 287.4
 <g transform="translate(452,692) scale(.8)"><rect width="24" height="24" rx="6" fill="none" stroke="#ff5500" stroke-width="2"/><circle cx="12" cy="12" r="4.6" fill="none" stroke="#ff5500" stroke-width="2"/><circle cx="18.2" cy="5.8" r="1.5" fill="#ff5500"/></g>
 <text x="478" y="707" font-size="12.5" fill="#c9d1d9">frndlyfrags</text>
 </g>
-<text class="soc" x="1232" y="707" text-anchor="end" font-size="13" style="animation:fadeIn .5s ease 7.6s forwards"><tspan fill="#8b949e">“</tspan><tspan fill="#ffaa55">Code is my art, Logic is my superpower.</tspan><tspan fill="#8b949e">” </tspan><tspan fill="#ff3700">❤</tspan></text>
+<text class="soc" x="1232" y="707" text-anchor="end" font-size="13" style="animation:fadeIn .5s ease 7.6s forwards"><tspan fill="#8b949e">“</tspan><tspan fill="#ffaa55">Code is my game, logic is weapon. </tspan><tspan fill="#8b949e">” </tspan><tspan fill="#ff3700">❤</tspan></text>
 <text class="soc" x="700" y="707" font-size="11.5" style="animation:fadeIn .5s ease 7.5s forwards"><tspan fill="#28c840">●</tspan><tspan fill="#8b949e"> open to collaborate</tspan></text>
 <g clip-path="url(#bannerBox)" opacity="0">
 <animate attributeName="opacity" from="0" to="1" dur=".6s" begin="3s" fill="freeze"/>
