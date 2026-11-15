@@ -175,9 +175,9 @@ TOTAL WIDTH: 287.4
 <text class="cl" x="582" y="110" style="animation:fadeIn .3s ease 2.1s forwards"><tspan fill="#ff5500">return</tspan><tspan fill="#e6edf3"> (</tspan></text>
 <text class="cl" x="596" y="130" style="animation:fadeIn .3s ease 2.4s forwards"><tspan fill="#8b949e">&lt;</tspan><tspan fill="#4ade80">div</tspan><tspan fill="#ff7b00"> className</tspan><tspan fill="#e6edf3">=</tspan><tspan fill="#fde047">"dreams"</tspan><tspan fill="#8b949e">&gt;</tspan></text>
 <text class="cl" x="610" y="150" style="animation:fadeIn .3s ease 2.7s forwards"><tspan fill="#8b949e">&lt;</tspan><tspan fill="#ff3700">Code</tspan><tspan fill="#8b949e"> /&gt;</tspan></text>
-<text class="cl" x="610" y="168" style="animation:fadeIn .3s ease 2.95s forwards"><tspan fill="#8b949e">&lt;</tspan><tspan fill="#fde047">Game</tspan><tspan fill="#8b949e"> /&gt;</tspan></text>
-<text class="cl" x="610" y="186" style="animation:fadeIn .3s ease 3.2s forwards"><tspan fill="#8b949e">&lt;</tspan><tspan fill="#7dd3fc">Repeat</tspan><tspan fill="#8b949e"> /&gt;</tspan></text>
-<text class="cl" x="610" y="204" style="animation:fadeIn .3s ease 3.45s forwards"><tspan fill="#8b949e">&lt;</tspan><tspan fill="#4ade80">Success</tspan><tspan fill="#8b949e"> /&gt;</tspan></text>
+<text class="cl" x="610" y="168" style="animation:fadeIn .3s ease 2.95s forwards"><tspan fill="#8b949e">&lt;</tspan><tspan fill="#fde047">Create/</tspan><tspan fill="#8b949e"> /&gt;</tspan></text>
+<text class="cl" x="610" y="186" style="animation:fadeIn .3s ease 3.2s forwards"><tspan fill="#8b949e">&lt;</tspan><tspan fill="#7dd3fc">Experiment/</tspan><tspan fill="#8b949e"> /&gt;</tspan></text>
+<text class="cl" x="610" y="204" style="animation:fadeIn .3s ease 3.45s forwards"><tspan fill="#8b949e">&lt;</tspan><tspan fill="#4ade80">Repeat/</tspan><tspan fill="#8b949e"> /&gt;</tspan></text>
 <text class="cl" x="596" y="222" style="animation:fadeIn .3s ease 3.65s forwards"><tspan fill="#8b949e">&lt;/</tspan><tspan fill="#4ade80">div</tspan><tspan fill="#8b949e">&gt;</tspan><tspan fill="#e6edf3">);</tspan></text>
 <text class="cl" x="568" y="242" style="animation:fadeIn .3s ease 3.85s forwards"><tspan fill="#e6edf3">}</tspan><tspan fill="#8b949e"> // export default</tspan></text>
 </g>
