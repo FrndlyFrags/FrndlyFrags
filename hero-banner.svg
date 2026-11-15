@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="300" viewBox="0 0 860 300" role="img" aria-label="FrndlyFrags hero banner" xmlns:c2pa="http://c2pa.org/manifest">
+<title>FrndlyFrags — hero banner (concept)</title>
+<defs><style><![CDATA[text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes xeq{0%,100%{transform:scaleY(.25)}50%{transform:scaleY(1)}}
+.eq{transform-box:fill-box;transform-origin:50% 100%;animation:xeq 1.2s ease-in-out infinite}
+@keyframes xblink{50%{opacity:0}}
+.cur{animation:xblink 1s steps(1) infinite}
+]]></style>
+<linearGradient id="xog" x1="0" x2="1"><stop offset="0" stop-color="#ff3700"/><stop offset="1" stop-color="#ff7b00"/></linearGradient>
+<filter id="xglow" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<radialGradient id="xrg"><stop offset="0" stop-color="#ff5a00" stop-opacity=".22"/><stop offset="1" stop-color="#ff5a00" stop-opacity="0"/></radialGradient>
+<clipPath id="xcard"><rect width="860" height="300" rx="16"/></clipPath>
+<clipPath id="xname"><rect x="250" y="64" width="0" height="70"><animate attributeName="width" from="0" to="470" dur="1.1s" begin=".6s" fill="freeze"/></rect></clipPath>
+</defs>
+<g clip-path="url(#xcard)">
+<rect width="860" height="300" fill="#0a0a0b"/><circle cx="640" cy="130" r="300" fill="url(#xrg)"/>
+<svg x="24" y="0" width="191" height="300" viewBox="0 0 420 660">
+<title>FrndlyFrags — swinging ID badge</title>
+<defs>
+<style type="text/css"><![CDATA[
+text{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+@keyframes settle{0%{transform:rotate(0deg) translateY(-660px)}18%{transform:rotate(0deg) translateY(0)}30%{transform:rotate(13deg)}46%{transform:rotate(-9deg)}62%{transform:rotate(6deg)}78%{transform:rotate(-3.5deg)}92%{transform:rotate(1.5deg)}100%{transform:rotate(0deg)}}
+@keyframes sway{0%,100%{transform:rotate(-3.2deg)}50%{transform:rotate(3.2deg)}}
+@keyframes cardWobble{0%,100%{transform:rotate(1.6deg)}50%{transform:rotate(-1.6deg)}}
+@keyframes shine{0%{transform:translateX(-340px) skewX(-18deg)}55%,100%{transform:translateX(420px) skewX(-18deg)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes headphoneFloat{0%,100%{transform:translateY(0) rotate(-3deg);opacity:0}50%{transform:translateY(-15px) rotate(3deg);opacity:1}}
+.settle{transform-origin:210px 6px;animation:settle 3.4s cubic-bezier(.34,1.1,.5,1) forwards}
+.sway{transform-origin:210px 6px;animation:sway 4.2s ease-in-out 3.4s infinite}
+.wob{transform-origin:210px 300px;animation:cardWobble 4.2s ease-in-out 3.4s infinite}
+.shine{animation:shine 4.5s ease-in-out 3.6s infinite}
+.hp{transform-box:fill-box;transform-origin:center;animation:headphoneFloat 6s ease-in-out infinite}
+]]></style>
+<linearGradient id="strapg" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#0a0a0a"/><stop offset="50%" stop-color="#1a1a1a"/><stop offset="100%" stop-color="#0a0a0a"/>
+</linearGradient>
+<linearGradient id="cardg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#0a0a0a"/><stop offset="100%" stop-color="#0a0a0a"/>
+</linearGradient>
+<linearGradient id="cardborder" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%"><animate attributeName="stop-color" values="#ff3700;#ff7b00;#d92b00;#ff3700" dur="6s" repeatCount="indefinite"/></stop>
+  <stop offset="100%"><animate attributeName="stop-color" values="#d92b00;#ff3700;#ff7b00;#d92b00" dur="6s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%" stop-color="#c8ccd6"/><stop offset="45%" stop-color="#8a90a0"/><stop offset="55%" stop-color="#6a7080"/><stop offset="100%" stop-color="#9aa0b0"/>
+</linearGradient>
+<linearGradient id="shineg" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#fff" stop-opacity=".07"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="nameg2" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%"><animate attributeName="stop-color" values="#ff3700;#ff7b00;#ff3700" dur="5s" repeatCount="indefinite"/></stop>
+  <stop offset="100%"><animate attributeName="stop-color" values="#ff7b00;#ff3700;#ff7b00" dur="5s" repeatCount="indefinite"/></stop>
+</linearGradient>
+<radialGradient id="lglow"><stop offset="0%" stop-color="#ff7b00" stop-opacity=".16"/><stop offset="100%" stop-color="#ff7b00" stop-opacity="0"/></radialGradient>
+<filter id="glow2"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity=".55"/></filter>
+<clipPath id="cardclip"><rect x="82" y="298" width="256" height="330" rx="20"/></clipPath>
+<clipPath id="avatarclip"><circle cx="210" cy="412" r="57.5"/></clipPath>
+<mask id="avatarmask"><circle cx="210" cy="412" r="57.5" fill="white"/></mask>
+</defs>
+
+<circle cx="210" cy="440" r="230" fill="url(#lglow)"><animate attributeName="r" values="230;250;230" dur="5s" repeatCount="indefinite"/></circle>
+
+
+<g class="hp" style="animation-delay:2.1s" transform="translate(350,400)" filter="url(#glow2)">
+  <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff3700" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff7b00" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="2" y="15" width="7" height="12" rx="3" fill="#ff2200"/>
+  <rect x="4" y="17" width="3" height="8" rx="1.5" fill="#ffaa00"/>
+  <circle cx="5.5" cy="21" r="2" fill="#00ffff" opacity="0.8"/>
+  <rect x="31" y="15" width="7" height="12" rx="3" fill="#ff2200"/>
+  <rect x="33" y="17" width="3" height="8" rx="1.5" fill="#ffaa00"/>
+  <circle cx="34.5" cy="21" r="2" fill="#ff00ff" opacity="0.8"/>
+</g>
+<g class="hp" style="animation-delay:3.5s" transform="translate(150,550)" filter="url(#glow2)">
+  <path d="M 4 14 A 12 12 0 0 1 26 14" fill="none" stroke="#d92b00" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 4 14 A 12 12 0 0 1 26 14" fill="none" stroke="#ff7b00" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+  <rect x="1" y="12" width="5" height="9" rx="2.5" fill="#d92b00"/>
+  <rect x="3" y="14" width="2" height="6" rx="1" fill="#ffaa00"/>
+  <circle cx="4" cy="18" r="1.5" fill="#00ffff" opacity="0.7"/>
+  <rect x="23" y="12" width="5" height="9" rx="2.5" fill="#d92b00"/>
+  <rect x="25" y="14" width="2" height="6" rx="1" fill="#ffaa00"/>
+  <circle cx="26" cy="18" r="1.5" fill="#ff00ff" opacity="0.7"/>
+</g>
+<g class="hp" style="animation-delay:4.8s" transform="translate(380,250)" filter="url(#glow2)">
+  <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff3700" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff7b00" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+  <rect x="2" y="15" width="7" height="12" rx="3" fill="#ff2200" opacity=".7"/>
+  <rect x="4" y="17" width="3" height="8" rx="1.5" fill="#ffaa00" opacity=".7"/>
+  <circle cx="5.5" cy="21" r="2" fill="#00ffff" opacity="0.6"/>
+  <rect x="31" y="15" width="7" height="12" rx="3" fill="#ff2200" opacity=".7"/>
+  <rect x="33" y="17" width="3" height="8" rx="1.5" fill="#ffaa00" opacity=".7"/>
+  <circle cx="34.5" cy="21" r="2" fill="#ff00ff" opacity="0.6"/>
+</g>
+
+<!-- Static headphones (always visible, no fade) -->
+<g transform="translate(100,220)" filter="url(#glow2)">
+  <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff3700" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff7b00" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="2" y="15" width="7" height="12" rx="3" fill="#ff2200"/>
+  <rect x="4" y="17" width="3" height="8" rx="1.5" fill="#ffaa00"/>
+  <circle cx="5.5" cy="21" r="2" fill="#00ffff" opacity="0.8"/>
+  <rect x="31" y="15" width="7" height="12" rx="3" fill="#ff2200"/>
+  <rect x="33" y="17" width="3" height="8" rx="1.5" fill="#ffaa00"/>
+  <circle cx="34.5" cy="21" r="2" fill="#ff00ff" opacity="0.8"/>
+</g>
+<g transform="translate(310,520)" filter="url(#glow2)">
+  <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff3700" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff7b00" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <rect x="2" y="15" width="7" height="12" rx="3" fill="#ff2200"/>
+  <rect x="4" y="17" width="3" height="8" rx="1.5" fill="#ffaa00"/>
+  <circle cx="5.5" cy="21" r="2" fill="#00ffff" opacity="0.8"/>
+  <rect x="31" y="15" width="7" height="12" rx="3" fill="#ff2200"/>
+  <rect x="33" y="17" width="3" height="8" rx="1.5" fill="#ffaa00"/>
+  <circle cx="34.5" cy="21" r="2" fill="#ff00ff" opacity="0.8"/>
+</g>
+<g transform="translate(210,195)" filter="url(#glow2)">
+  <path d="M 5 16 A 14 14 0 0 1 31 16" fill="none" stroke="#d92b00" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 5 16 A 14 14 0 0 1 31 16" fill="none" stroke="#ff7b00" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+  <rect x="1" y="14" width="6" height="10" rx="3" fill="#d92b00"/>
+  <rect x="3" y="16" width="3" height="7" rx="1.5" fill="#ffaa00"/>
+  <circle cx="4.5" cy="20" r="1.5" fill="#00ffff" opacity="0.7"/>
+  <rect x="27" y="14" width="6" height="10" rx="3" fill="#d92b00"/>
+  <rect x="29" y="16" width="3" height="7" rx="1.5" fill="#ffaa00"/>
+  <circle cx="30.5" cy="20" r="1.5" fill="#ff00ff" opacity="0.7"/>
+</g>
+<g transform="translate(60,380)" filter="url(#glow2)">
+  <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff3700" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  <path d="M 6 18 A 16 16 0 0 1 34 18" fill="none" stroke="#ff7b00" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+  <rect x="2" y="15" width="7" height="12" rx="3" fill="#ff2200" opacity=".7"/>
+  <rect x="4" y="17" width="3" height="8" rx="1.5" fill="#ffaa00" opacity=".7"/>
+  <circle cx="5.5" cy="21" r="2" fill="#00ffff" opacity="0.6"/>
+  <rect x="31" y="15" width="7" height="12" rx="3" fill="#ff2200" opacity=".7"/>
+  <rect x="33" y="17" width="3" height="8" rx="1.5" fill="#ffaa00" opacity=".7"/>
+  <circle cx="34.5" cy="21" r="2" fill="#ff00ff" opacity="0.6"/>
+</g>
+<g transform="translate(360,460)" filter="url(#glow2)">
+  <path d="M 4 14 A 12 12 0 0 1 26 14" fill="none" stroke="#d92b00" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 4 14 A 12 12 0 0 1 26 14" fill="none" stroke="#ff7b00" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+  <rect x="1" y="12" width="5" height="9" rx="2.5" fill="#d92b00"/>
+  <rect x="3" y="14" width="2" height="6" rx="1" fill="#ffaa00"/>
+  <circle cx="4" cy="18" r="1.5" fill="#00ffff" opacity="0.6"/>
+  <rect x="23" y="12" width="5" height="9" rx="2.5" fill="#d92b00"/>
+  <rect x="25" y="14" width="2" height="6" rx="1" fill="#ffaa00"/>
+  <circle cx="26" cy="18" r="1.5" fill="#ff00ff" opacity="0.6"/>
+</g>
+
+
+
+
+<!-- pendulum: settle then sway -->
+<g class="settle"><g class="sway">
+
+  <!-- Strap -->
+  <g>
+    <path d="M191 -6 L229 -6 L226 236 L194 236 Z" fill="url(#strapg)"/>
+    <line x1="196" y1="0" x2="198.5" y2="234" stroke="#fff" stroke-opacity=".55" stroke-width="1" stroke-dasharray="4 3"/>
+    <line x1="224" y1="0" x2="221.5" y2="234" stroke="#fff" stroke-opacity=".55" stroke-width="1" stroke-dasharray="4 3"/>
+    <text x="0" y="0" font-size="10.5" font-weight="bold" fill="#fff" opacity=".92" letter-spacing="2" transform="translate(214,18) rotate(90)">FRNDLYFRAGS.DEV • CODE • FRNDLYFRAGS.DEV</text>
+  </g>
+
+  <!-- Clasp + ring -->
+  <rect x="188" y="232" width="44" height="26" rx="6" fill="url(#metal)" stroke="#4a4f5c" stroke-width="1"/>
+  <rect x="199" y="238" width="22" height="7" rx="3.5" fill="#3c414e"/>
+  <circle cx="210" cy="272" r="14" fill="none" stroke="url(#metal)" stroke-width="5.5"/>
+
+  <!-- Card (secondary wobble) -->
+  <g class="wob">
+    <rect x="82" y="298" width="256" height="330" rx="20" fill="url(#cardg)" stroke="url(#cardborder)" stroke-width="2" filter="url(#cardShadow)"/>
+    <!-- slot -->
+    <rect x="180" y="310" width="60" height="10" rx="5" fill="#0a0714" stroke="#3b2a5c" stroke-width="1"/>
+
+    <g clip-path="url(#cardclip)">
+      <!-- header band -->
+      <rect x="82" y="298" width="256" height="34" fill="#0a0a0a"/>
+      <text x="98" y="345" font-size="9" fill="#8b949e" letter-spacing="1.5">DEVELOPER ID</text>
+      <text x="322" y="345" text-anchor="end" font-size="9" fill="#ff7b00" letter-spacing="1.5">FF-DEV</text>
+
+      <!-- avatar -->
+      <circle cx="210" cy="412" r="59" fill="none" stroke="url(#cardborder)" stroke-width="2.5"/>
+      <image x="152.5" y="354.5" width="115" height="115" clip-path="url(#avatarclip)" preserveAspectRatio="xMidYMid slice" href="data:image/jpeg;base64,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"/>
+
+      <!-- name -->
+      <g transform="translate(114,516)" fill="url(#nameg2)" filter="url(#glow2)">
+    <text x="0" y="0" font-size="28" font-weight="bold" letter-spacing="1">FRNDLYFRAGS</text>
+      </g>
+      <text x="210" y="540" text-anchor="middle" font-size="11" fill="#e879f9" font-weight="bold" letter-spacing="2.5">FULL-STACK DEV, CODER</text>
+      <text x="210" y="558" text-anchor="middle" font-size="10.5" fill="#8b949e">@FrndlyFrags</text>
+
+      <line x1="100" y1="572" x2="320" y2="572" stroke="#4a150e" stroke-width="1"/>
+
+      <!-- barcode + tag -->
+      <g transform="translate(100,584)"><rect x="0" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="5.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="9.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="12.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="16.0" y="0" width="4" height="26" fill="#e6edf3" opacity=".85"/><rect x="21.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="26.0" y="0" width="4" height="26" fill="#e6edf3" opacity=".85"/><rect x="31.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="34.5" y="0" width="4" height="26" fill="#e6edf3" opacity=".85"/><rect x="41.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="45.5" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="50.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="54.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="58.5" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="63.5" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="67.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="72.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="76.5" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="81.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="84.0" y="0" width="2.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="89.0" y="0" width="1.5" height="26" fill="#e6edf3" opacity=".85"/><rect x="93.5" y="0" width="4" height="26" fill="#e6edf3" opacity=".85"/></g>
+      <text x="320" y="600" text-anchor="end" font-size="8.5" fill="#8b949e">HTML • JS</text>
+      <text x="320" y="612" text-anchor="end" font-size="8.5" fill="#8b949e">SQL • SAP</text>
+
+      <!-- holo shine sweep -->
+      <rect class="shine" x="82" y="288" width="120" height="360" fill="url(#shineg)"/>
+    </g>
+  </g>
+</g></g>
+
+<text x="210" y="652" text-anchor="middle" font-size="10" fill="#8b949e" opacity="0" style="animation:fadeIn .6s ease 3.6s forwards">— drag me… just kidding, I'm an SVG —</text>
+</svg>
+<text x="260" y="52" font-size="13" fill="#8b949e" letter-spacing="1">$ whoami</text>
+<g clip-path="url(#xname)"><text x="260" y="118" font-size="52" font-weight="800" fill="url(#xog)" letter-spacing="2" filter="url(#xglow)">FRNDLYFRAGS</text></g>
+<text x="262" y="148" font-size="14" font-weight="700" fill="#e879f9" letter-spacing="3.5">FULL-STACK DEV · CODER</text>
+<text x="260" y="192" font-size="13" fill="#d4d4d8" opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".3s" begin="1.8s" fill="freeze"/><tspan fill="#ff7b00">&gt;</tspan> <tspan fill="#8b949e">building</tspan>  portfolio site</text><text x="260" y="214" font-size="13" fill="#d4d4d8" opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".3s" begin="2.3s" fill="freeze"/><tspan fill="#ff7b00">&gt;</tspan> <tspan fill="#8b949e">shipping</tspan>  Landslide-Alert</text><text x="260" y="236" font-size="13" fill="#d4d4d8" opacity="0"><animate attributeName="opacity" from="0" to="1" dur=".3s" begin="2.8s" fill="freeze"/><tspan fill="#ff7b00">&gt;</tspan> <tspan fill="#8b949e">modding</tspan>  Minecraft plugins<tspan class="cur" fill="#ff7b00"> _</tspan></text><rect x="260" y="254" width="118" height="28" rx="14" fill="#14100d" stroke="#ff7b00" stroke-opacity=".7"/><text x="319" y="272" text-anchor="middle" font-size="12" fill="#8b949e"><tspan fill="#ff7b00" font-weight="700">1,284</tspan> commits</text><rect x="388" y="254" width="118" height="28" rx="14" fill="#14100d" stroke="#ff7b00" stroke-opacity=".7"/><text x="447" y="272" text-anchor="middle" font-size="12" fill="#8b949e"><tspan fill="#ff7b00" font-weight="700">14</tspan> day streak</text><rect x="516" y="254" width="118" height="28" rx="14" fill="#14100d" stroke="#ff7b00" stroke-opacity=".7"/><text x="575" y="272" text-anchor="middle" font-size="12" fill="#8b949e"><tspan fill="#ff7b00" font-weight="700">3</tspan> repos</text><rect class="eq" style="animation-delay:0.00s" x="770" y="30" width="5" height="30" rx="2" fill="#ff7b00"/><rect class="eq" style="animation-delay:-0.23s" x="780" y="30" width="5" height="30" rx="2" fill="#e879f9"/><rect class="eq" style="animation-delay:-0.46s" x="790" y="30" width="5" height="30" rx="2" fill="#ff7b00"/><rect class="eq" style="animation-delay:-0.69s" x="800" y="30" width="5" height="30" rx="2" fill="#e879f9"/><rect class="eq" style="animation-delay:-0.92s" x="810" y="30" width="5" height="30" rx="2" fill="#ff7b00"/><rect class="eq" style="animation-delay:-1.15s" x="820" y="30" width="5" height="30" rx="2" fill="#e879f9"/>
+</g>
+<rect x="1" y="1" width="858" height="298" rx="15" fill="none" stroke="url(#xog)" stroke-opacity=".55"/>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpjNTk4ODVjZi00YTFkLTRkNDQtOWMxYS0wNDM2ODczMzk0YjkAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaDuM4rm7N6LhAKKuhu0QyasAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDowZDc1N2M4OS05YTRhLTQwODEtOTJiNi03ODVmNzBlYjk0OWRscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoeP5t6nBKHjeQSQVM+o6hEQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggJcM/K+BXVbQ+ccIgxevviPbdwFrvNooCrvUreir33BekZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaKdXsWOg6Wfa3qsBWs6pMbQAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIIGhudzcIXRdA2wuxDWDEJa9StdNlPJDFylaQdUZi0b+ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GVvyZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmM1OTg4NWNmLTRhMWQtNGQ0NC05YzFhLTA0MzY4NzMzOTRiOS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjUxNmZhZWI2LWJmMGQtNDYxYS05NDNiLTZhNGIyYjVmOTdjMXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAlwz8r4FdVtD5xwiDF6++I9t3AWu82igKu9St6KvfcF6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggfpJJzwmWGotJk5+7atEQPGoQl0AnJogPbmqKn1i/H6miY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggYLfnAS3dZIJYHySRFNHif+6czEVIED3Jr3SUslFAoTh0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQEEGTlIYoUiCdUEyTforxeBE7Jx5Gl9lzga3B9P8jNixPbVV5na7j+tmWWLIwfhQE409/M6QzR7xvyZIwnSNI5Q=</c2pa:manifest></metadata></svg>
