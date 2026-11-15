@@ -22,9 +22,11 @@
 
 ---
 
-
+### 📊 GitHub Stats
+<img src="./frags-stats.svg" alt="FrndlyFrags GitHub Stats" width="100%" />
 
 ---
+
 
 ### 📊 3D Contribution Graph
 
