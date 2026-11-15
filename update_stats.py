@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh frags-stats.svg with live numbers and top repos from GitHub (stdlib only)."""
+"""Refresh frags-stats.svg and hero-banner.svg with live numbers from GitHub (stdlib only)."""
 import json
 import os
 import re
@@ -10,7 +10,8 @@ from xml.sax.saxutils import escape
 
 USER = os.environ.get("GH_USER", "FrndlyFrags")
 TOKEN = os.environ["GITHUB_TOKEN"]
-SVG_PATH = os.environ.get("SVG_PATH", "frags-stats.svg")
+STATS_SVG_PATH = os.environ.get("SVG_PATH", "frags-stats.svg")
+HERO_SVG_PATH = "hero-banner.svg"
 REPO_SLOTS = 3  # tiles in the SVG: r1, r2, r3
 
 QUERY = """
@@ -130,7 +131,7 @@ def main():
     xp = commits * 10 + prs * 50 + stars * 20 + issues * 30
     level, xp_in = xp // 1000 + 1, xp % 1000
 
-    with open(SVG_PATH, encoding="utf-8") as f:
+    with open(STATS_SVG_PATH, encoding="utf-8") as f:
         svg = f.read()
 
     for el_id, val in [("v-commits", f"{commits:,}"), ("v-prs", prs), ("v-stars", stars),
@@ -156,10 +157,44 @@ def main():
         svg = set_text(svg, f"r{i}-lang", lang.get("name") or "—")
         svg = set_text(svg, f"r{i}-meta", f"★ {r['stargazerCount']} · {ago(r['pushedAt'])}" if r else "")
 
-    with open(SVG_PATH, "w", encoding="utf-8") as f:
+    with open(STATS_SVG_PATH, "w", encoding="utf-8") as f:
         f.write(svg)
+
+    # Update hero-banner.svg
+    update_hero_banner(commits, streak, len([n for n in nodes if n["name"].lower() != USER.lower()]))
+
     print(f"{USER}: commits={commits} prs={prs} stars={stars} issues={issues} streak={streak} "
           f"lvl={level} repos={[r['name'] for r in repos]}")
+
+
+def update_hero_banner(commits, streak, repo_count):
+    """Update the hero-banner.svg with real-time stats."""
+    with open(HERO_SVG_PATH, encoding="utf-8") as f:
+        svg = f.read()
+
+    # Update commits pill
+    svg = re.sub(
+        r'(<tspan fill="#ff7b00" font-weight="700">)[^<]*(</tspan>.*?commits)',
+        lambda m: f'{m.group(1)}{commits:,}{m.group(2)}',
+        svg, count=1, flags=re.S
+    )
+
+    # Update day streak pill
+    svg = re.sub(
+        r'(<tspan fill="#ff7b00" font-weight="700">)[^<]*(</tspan>.*?day streak)',
+        lambda m: f'{m.group(1)}{streak}{m.group(2)}',
+        svg, count=1, flags=re.S
+    )
+
+    # Update repos pill
+    svg = re.sub(
+        r'(<tspan fill="#ff7b00" font-weight="700">)[^<]*(</tspan>.*?repos)',
+        lambda m: f'{m.group(1)}{repo_count}{m.group(2)}',
+        svg, count=1, flags=re.S
+    )
+
+    with open(HERO_SVG_PATH, "w", encoding="utf-8") as f:
+        f.write(svg)
 
 
 if __name__ == "__main__":
