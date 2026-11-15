@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="./hero-banner.svg" alt="FrndlyFrags Hero Banner" width="100%" />
+
+---
+
 # Hi there, I'm FrndlyFrags 👋
 
 ### 🚀 Frontend Developer | Gamer | Builder
