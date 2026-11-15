@@ -27,7 +27,7 @@ jobs:
 
       - name: Commit if changed
         run: |
-          git config user.name "frndly-bot"
-          git config user.email "frndly-bot@users.noreply.github.com"
+          git config user.name "frndlyfrags"
+          git config user.email "frndlyfrags@users.noreply.github.com"
           git add frndlyfrags-stats.svg
           git diff --cached --quiet || (git commit -m "chore: refresh stats card" && git push)
