@@ -83,28 +83,22 @@
 
     <!-- stat rows -->
     <text class="lbl" x="318" y="134">ATK</text>
-    <text class="sub" x="318" y="147">commits · past year</text>
+    <text class="sub" x="318" y="147">total commits</text>
     <rect x="392" y="123" width="230" height="14" rx="7" fill="#1f1f23"/>
     <rect id="bar-commits" x="392" y="123" width="26" height="14" rx="7" fill="url(#gRed)"><animate attributeName="width" from="0" to="26" dur="1.4s" begin="0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></rect>
     <text id="v-commits" class="val" x="634" y="135">172</text>
 
-    <text class="lbl" x="318" y="176">DEF</text>
-    <text class="sub" x="318" y="189">pull requests merged</text>
+    <text class="lbl" x="318" y="176">LOOT</text>
+    <text class="sub" x="318" y="189">stars earned</text>
     <rect x="392" y="165" width="230" height="14" rx="7" fill="#1f1f23"/>
-    <rect id="bar-prs" x="392" y="165" width="0" height="14" rx="7" fill="url(#gWhite)"><animate attributeName="width" from="0" to="0" dur="1.4s" begin="0.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></rect>
-    <text id="v-prs" class="val" x="634" y="177">0</text>
+    <rect id="bar-stars" x="392" y="165" width="6" height="14" rx="7" fill="url(#gRed)"><animate attributeName="width" from="0" to="6" dur="1.4s" begin="0.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></rect>
+    <text id="v-stars" class="val" x="634" y="177">3</text>
 
-    <text class="lbl" x="318" y="218">LOOT</text>
-    <text class="sub" x="318" y="231">stars earned</text>
+    <text class="lbl" x="318" y="218">QUEST</text>
+    <text class="sub" x="318" y="231">issues closed</text>
     <rect x="392" y="207" width="230" height="14" rx="7" fill="#1f1f23"/>
-    <rect id="bar-stars" x="392" y="207" width="6" height="14" rx="7" fill="url(#gRed)"><animate attributeName="width" from="0" to="6" dur="1.4s" begin="0.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></rect>
-    <text id="v-stars" class="val" x="634" y="219">3</text>
-
-    <text class="lbl" x="318" y="260">QUEST</text>
-    <text class="sub" x="318" y="273">issues closed</text>
-    <rect x="392" y="249" width="230" height="14" rx="7" fill="#1f1f23"/>
-    <rect id="bar-issues" x="392" y="249" width="0" height="14" rx="7" fill="url(#gWhite)"><animate attributeName="width" from="0" to="0" dur="1.4s" begin="0.45s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></rect>
-    <text id="v-issues" class="val" x="634" y="261">0</text>
+    <rect id="bar-issues" x="392" y="207" width="0" height="14" rx="7" fill="url(#gWhite)"><animate attributeName="width" from="0" to="0" dur="1.4s" begin="0.3s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></rect>
+    <text id="v-issues" class="val" x="634" y="219">0</text>
 
     <!-- streak flame -->
     <path class="bglow" d="M744 124L716 172H733L725 212L757 158H739Z" fill="#ff3700" filter="url(#blur)"/>

@@ -134,7 +134,7 @@ def main():
     with open(STATS_SVG_PATH, encoding="utf-8") as f:
         svg = f.read()
 
-    for el_id, val in [("v-commits", f"{commits:,}"), ("v-prs", prs), ("v-stars", stars),
+    for el_id, val in [("v-commits", f"{commits:,}"), ("v-stars", stars),
                        ("v-issues", issues), ("streak", streak), ("lvl", level),
                        ("xp", xp_in), ("next", f"next: LVL {level + 1}")]:
         svg = set_text(svg, el_id, val)
@@ -161,37 +161,21 @@ def main():
         f.write(svg)
 
     # Update hero-banner.svg
-    update_hero_banner(commits, streak, len([n for n in nodes if n["name"].lower() != USER.lower()]))
-
+    update_hero_banner(commits, streak, len([n for n in nodes if n["name"].lower() != USER.lower()]), stars)
     print(f"{USER}: commits={commits} prs={prs} stars={stars} issues={issues} streak={streak} "
           f"lvl={level} repos={[r['name'] for r in repos]}")
 
 
-def update_hero_banner(commits, streak, repo_count):
+def update_hero_banner(commits, streak, repo_count, stars):
     """Update the hero-banner.svg with real-time stats."""
     with open(HERO_SVG_PATH, encoding="utf-8") as f:
         svg = f.read()
 
-    # Update commits pill
-    svg = re.sub(
-        r'(<tspan fill="#ff7b00" font-weight="700">)[^<]*(</tspan>.*?commits)',
-        lambda m: f'{m.group(1)}{commits:,}{m.group(2)}',
-        svg, count=1, flags=re.S
-    )
-
-    # Update day streak pill
-    svg = re.sub(
-        r'(<tspan fill="#ff7b00" font-weight="700">)[^<]*(</tspan>.*?day streak)',
-        lambda m: f'{m.group(1)}{streak}{m.group(2)}',
-        svg, count=1, flags=re.S
-    )
-
-    # Update repos pill
-    svg = re.sub(
-        r'(<tspan fill="#ff7b00" font-weight="700">)[^<]*(</tspan>.*?repos)',
-        lambda m: f'{m.group(1)}{repo_count}{m.group(2)}',
-        svg, count=1, flags=re.S
-    )
+    # Update hero-banner.svg via id-targeted text injection (same helper as stats card)
+    svg = set_text(svg, "v-commits-hero", f"{commits:,}")
+    svg = set_text(svg, "v-streak-hero", str(streak))
+    svg = set_text(svg, "v-repos-hero", str(repo_count))
+    svg = set_text(svg, "v-stars-hero", str(stars))
 
     with open(HERO_SVG_PATH, "w", encoding="utf-8") as f:
         f.write(svg)
