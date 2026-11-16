@@ -30,7 +30,7 @@
 
 ### 📊 3D Contribution Graph
 
-<img src="./profile-3d-contrib/profile-gitblock.svg" alt="3D Contribution Graph" width="100%" />
+<img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contribution Graph" width="100%" />
 
 <sub>⚡ Updated daily at 2:00 AM CST</sub>
 
