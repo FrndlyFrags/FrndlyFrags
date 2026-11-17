@@ -1,38 +1,35 @@
 <div align="center">
 
-<img src="./hero-banner.svg" alt="FrndlyFrags Hero Banner" width="100%" />
+# Hi there, I'm FrndlyFrags 👋
 
----
+### 🚀 Frontend Developer | Gamer | Builder
 
-### 🚀 Frontend Developer · Gamer · Builder
+### 🌟 My Tech Stack
+- **Frontend:** React, JavaScript, TypeScript, HTML5, CSS3
+- **Databases:** SQL, SAP
+- **Tools:** Git, GitHub, VS Code, Webpack, Node.js
 
-<img src="./frags-tech.svg" alt="FrndlyFrags Skill Tree" width="100%" />
+### 🎮 Fun Fact
+I'm a passionate gamer and developer who loves building creative projects and solving complex problems with code.
+
+### 📊 3D Contribution Graph
+
+<img src="./profile-3d-contrib/profile-gitblock.svg" alt="3D Contribution Graph" width="400" />
+
+<sub>⚡ Automatically updated daily at 2:00 AM CST</sub>
 
 ---
 
 ### 🏷️ ID Card Lanyard
 
-<img src="./frags-id.svg" alt="FrndlyFrags ID Card" width="420" />
+<img src="./frags-lanyard-vector.svg" alt="FrndlyFrags ID Card" width="600" />
 
 ---
+
 
 ### 💻 Terminal Banner
 
-<img src="./frags-banner.svg" alt="FrndlyFrags Terminal" width="100%" />
-
----
-
-### 📊 GitHub Stats
-
-<img src="./frags-stats.svg" alt="FrndlyFrags GitHub Stats" width="100%" />
-
----
-
-### 📊 3D Contribution Graph
-
-<img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contribution Graph" width="100%" />
-
-<sub>⚡ Updated daily at 2:00 AM CST</sub>
+<img src="./frags-banner.svg" alt="FrndlyFrags Developer Banner" width="100%" />
 
 ---
 
