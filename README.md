@@ -4,11 +4,11 @@
 
 ---
 
-<img src="./frags-tech.svg" alt="FrndlyFrags Skill Tree" width="100%" />
+<img src="./frags-banner.svg" alt="FrndlyFrags Terminal" width="100%" />
 
 ---
 
-<img src="./frags-banner.svg" alt="FrndlyFrags Terminal" width="100%" />
+<img src="./frags-tech.svg" alt="FrndlyFrags Skill Tree" width="100%" />
 
 ---
 
