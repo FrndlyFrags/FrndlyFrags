@@ -218,10 +218,10 @@ def update_frags_contri(svg, stats, power_level):
 
     # Better: just replace the final displayed value (the one that stays visible longest)
     # The last animated text with fill="#ff7b00" has the longest visibility
-    # Find and replace its content
+    # Find and replace its content (the number after the animate closing tag)
     svg = re.sub(
-        r'(<text x="566" y="182" font-size="56" font-weight="800" fill="#ff7b00" opacity="0" filter="url\(#xglow\)"><animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0\.1417;0\.9667" dur="12\.0s" repeatCount="indefinite"/>)',
-        lambda m: m.group(1) + str(power_level),
+        r'(<text x="566" y="182" font-size="56" font-weight="800" fill="#ff7b00" opacity="0" filter="url\(#xglow\)"><animate attributeName="opacity" calcMode="discrete" values="0;1;0" keyTimes="0;0\.1417;0\.9667" dur="12\.0s" repeatCount="indefinite"/>)(\d+)(</text>)',
+        lambda m: m.group(1) + str(power_level) + m.group(3),
         svg
     )
 
