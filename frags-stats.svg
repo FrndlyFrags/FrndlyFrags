@@ -105,7 +105,7 @@
     <path class="bolt" d="M744 124L716 172H733L725 212L757 158H739Z" fill="url(#gBolt)" stroke="#fecaca" stroke-width="1" stroke-linejoin="round"/>
     <circle cx="712" cy="150" r="1.8" fill="#fafafa" class="spark"/>
     <circle cx="760" cy="190" r="1.8" fill="#fafafa" class="spark s2"/>
-        <text id="streak" x="735" y="238" font-size="22" font-weight="800" fill="#fafafa" text-anchor="middle">1</text>
+        <text id="streak" x="735" y="238" font-size="22" font-weight="800" fill="#fafafa" text-anchor="middle">0</text>
     <text class="sub" x="735" y="254" text-anchor="middle">day streak</text>
 
     <!-- XP -->
