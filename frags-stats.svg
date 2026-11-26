@@ -125,7 +125,7 @@
     <text id="r1-d2" x="40" y="457" font-size="10" fill="#a1a1aa"></text>
     <circle id="r1-dot" cx="44" cy="475" r="4" fill="#f1e05a"/>
     <text id="r1-lang" class="sub" x="54" y="478">JavaScript</text>
-    <text id="r1-meta" class="sub" x="254" y="478" text-anchor="end">★ 1 · 10d ago</text>
+    <text id="r1-meta" class="sub" x="254" y="478" text-anchor="end">★ 1 · 11d ago</text>
     <rect x="280" y="400" width="244" height="90" rx="10" fill="#111114" stroke="#27272a"/>
     <rect x="280" y="412" width="3" height="16" rx="1.5" fill="#ef4444"/>
     <text id="r2-name" x="296" y="425" font-size="13" font-weight="700" fill="#fafafa">CursedRituals</text>
@@ -133,7 +133,7 @@
     <text id="r2-d2" x="296" y="457" font-size="10" fill="#a1a1aa">rare item drops and immersive…</text>
     <circle id="r2-dot" cx="300" cy="475" r="4" fill="#b07219"/>
     <text id="r2-lang" class="sub" x="310" y="478">Java</text>
-    <text id="r2-meta" class="sub" x="510" y="478" text-anchor="end">★ 1 · 17d ago</text>
+    <text id="r2-meta" class="sub" x="510" y="478" text-anchor="end">★ 1 · 18d ago</text>
     <rect x="536" y="400" width="244" height="90" rx="10" fill="#111114" stroke="#27272a"/>
     <rect x="536" y="412" width="3" height="16" rx="1.5" fill="#ef4444"/>
     <text id="r3-name" x="552" y="425" font-size="13" font-weight="700" fill="#fafafa">ThePurgePlugin</text>
@@ -141,7 +141,7 @@
     <text id="r3-d2" x="552" y="457" font-size="10" fill="#a1a1aa">ignites, roles are assigned, and…</text>
     <circle id="r3-dot" cx="556" cy="475" r="4" fill="#b07219"/>
     <text id="r3-lang" class="sub" x="566" y="478">Java</text>
-    <text id="r3-meta" class="sub" x="766" y="478" text-anchor="end">★ 1 · 26d ago</text>
+    <text id="r3-meta" class="sub" x="766" y="478" text-anchor="end">★ 1 · 27d ago</text>
   </g>
 
   <rect x="1" y="1" width="798" height="500" rx="17" fill="none" stroke="#27272a"/>
